@@ -1,0 +1,97 @@
+/* item.css */
+
+.cardd {
+    display: flex;
+    flex-wrap: wrap;
+  
+    
+    
+  }
+  
+
+.boxcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ width: 370px;
+    background-color: white;
+   border: 2px solid black;
+   border-radius: 10px;
+    margin-top: 40px;
+}
+.boxcard>img{
+    width: 200px;
+}
+.boxcard>h2{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 10px;
+    font-weight:900;
+    padding-top: 10px;
+
+}
+.boxcard>h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+.boxcard>h3{
+    text-align: center;
+    font-weight: 550;
+    padding-top: 8px;
+    font-size: 20px;
+}
+.bbt{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-content: space-around;
+}
+#one{
+    background-color: rgba(0, 0, 0, 0.919);
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    height: 45px;
+    width: 130px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+   
+}
+#two{
+    background-color: rgb(20, 168, 218);
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    height: 45px;
+    width: 130px;
+    border-radius: 8px;
+    
+}
+#two:hover{
+    transform: scale(1.08);
+    transition-duration: 1000ms;
+}
+#one:hover{
+    transform: scale(1.08);
+    transition-duration: 1000ms;
+}
+
+.shimmer-container{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+  .shimmer-card{
+    width: 350px;
+    border-radius: 5px;
+    height: 450px;
+    box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+  }

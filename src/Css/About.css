@@ -1,0 +1,104 @@
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    box-sizing: content-box;
+}
+
+.about-container>img{
+    width: 40%;
+    height: 30%;
+    margin-left: 8%;
+    margin-top: 2%; 
+}
+.about-container>h1{
+    font-size: 20px;
+   margin-top: 3%;
+   border: 2px solid black;
+   text-align:center;
+   padding-top: 5%;
+  
+   width: 30%;
+   margin-right: 20%;
+}
+
+
+@media (max-width:468px){
+    .about-container{
+        display: flex;
+        justify-content: space-between;
+        align-content: space-around;
+        box-sizing: content-box;
+        flex-direction: column;
+    }
+    
+    .about-container>img{
+        width: 300px;
+        height: 300px;
+        margin-left: 50px;
+        margin-top: 20px; 
+    }
+    .about-container>h1{
+        font-size: 20px;
+       margin-top: 3%;
+       border: 2px solid black;
+       text-align:center;
+       padding-top: 20px;
+       padding-bottom: 20px;
+       width: 400px;
+       margin-bottom: 50px;
+       margin-left: 10px;
+    }
+}
+@media (min-width:469px) and (max-width:768px){
+    .about-container{
+        display: flex;
+        justify-content: space-between;
+        align-content: space-around;
+        box-sizing: content-box;
+        flex-direction: column;
+    }
+    
+    .about-container>img{
+        width: 320px;
+        height: 300px;
+        margin-left: 190px;
+        margin-top: 30px; 
+    }
+    .about-container>h1{
+        font-size: 20px;
+       margin-top: 3%;
+       border: 2px solid black;
+       text-align:center;
+       padding: 20px;
+       width: 600px;
+       margin-bottom: 50px;
+       margin-left: 80px;
+    }
+}
+@media (min-width:769px) and (max-width:1023px){
+    .about-container{
+        display: flex;
+        justify-content: space-between;
+        align-content: space-around;
+        box-sizing: content-box;
+        flex-direction: column;
+    }
+    
+    .about-container>img{
+        width: 360px;
+        height: 350px;
+        margin-left: 290px;
+        margin-top: 50px; 
+    }
+    .about-container>h1{
+        font-size: 20px;
+       margin-top: 3%;
+       border: 2px solid black;
+       text-align:center;
+       padding: 20px;
+       width: 800px;
+       margin-bottom: 50px;
+       margin-left: 100px;
+    }
+}
