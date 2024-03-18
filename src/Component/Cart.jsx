@@ -47,7 +47,7 @@ function Cart() {
                     alert('Invalid Coupon Code!!');
                   }}  className='btn-1'>Apply Coupon</button>
                   <button onClick={()=>{
-                    alert("Checkout Done!! Payment Successful of $85")
+                    alert("Checkout Done!! Payment Successful")
                   }} className='btn-2'>Continue to Checkout</button>
                    </div>
       }

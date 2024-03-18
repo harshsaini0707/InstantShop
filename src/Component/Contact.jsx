@@ -21,7 +21,7 @@ export const Contact = () => {
     <input className='name' type='text' placeholder='Enter Email'/>
     <textarea type='text' className='feedback' placeholder='Reason for Contacting!'></textarea>
     <button type='submit' onClick={()=>{
-      alert('Thanks For Contacting Us!! Your Issue Shold be Resolved Soon')
+      alert('Thanks For Contacting Us!! Your Issue Should be Resolved Soon')
     }} className='contact-btn'>Submit</button>
 </div>
 
