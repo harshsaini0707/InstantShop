@@ -1,5 +1,5 @@
 import React from 'react'
-import '/home/harsh/VS FULLSTACK/React/InstantShop/InstanstShop/src/Css/item.css'
+import './../Css/item.css'
 const Shimmer = () => {
   return (
    

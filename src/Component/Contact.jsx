@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar';
-import cct from '/home/harsh/VS FULLSTACK/React/InstantShop/InstanstShop/src/assets/contact.jpg'
-import '/home/harsh/VS FULLSTACK/React/InstantShop/InstanstShop/src/Css/Contact.css'
+import cct from './../assets/contact.jpg'
+import './../Css/Contact.css'
 
 import { Provider } from 'react-redux';
 import store from '../Redux/store';

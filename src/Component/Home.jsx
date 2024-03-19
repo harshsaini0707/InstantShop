@@ -1,5 +1,5 @@
 import React from 'react'
-import home from '/home/harsh/VS FULLSTACK/React/InstantShop/InstanstShop/src/assets/home.jpg'
+import home from './../assets/home.jpg'
 import Navbar from './Navbar';
 import './../App.css'
 

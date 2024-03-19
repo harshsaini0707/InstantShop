@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa6';
 
-import { useProductContext } from '/home/harsh/VS FULLSTACK/React/InstantShop/InstanstShop/src/Component/ProductContext.jsx';
+import { useProductContext } from './../Component/ProductContext.jsx';
 import Navbar from './Navbar';
-import '/home/harsh/VS FULLSTACK/React/InstantShop/InstanstShop/src/Css/Product.css'
+import './../Css/Product.css'
 
 
 const Product = () => {

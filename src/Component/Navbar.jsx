@@ -1,17 +1,17 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import profile from '/home/harsh/VS FULLSTACK/React/InstantShop/InstanstShop/src/assets/profile.webp'
-import Img from '/home/harsh/VS FULLSTACK/React/InstantShop/InstanstShop/src/assets/logo.png';
+import profile from './../assets/profile.webp'
+import Img from './../assets/logo.png';
 import { FaCartShopping } from "react-icons/fa6";
-import '/home/harsh/VS FULLSTACK/React/InstantShop/InstanstShop/src/App.css'
+import './../App.css'
 
 import{useSelector} from "react-redux";
 import store from '../Redux/store';
 import { Provider } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
-import '/home/harsh/VS FULLSTACK/React/InstantShop/InstanstShop/src/Css/text.css'
+import './../Css/text.css'
 
 
 const navigation = [

@@ -1,11 +1,11 @@
 import React from 'react';
 import { Provider, useDispatch, useSelector } from 'react-redux';
-import store from '/home/harsh/VS FULLSTACK/React/InstantShop/InstanstShop/src/Redux/store.js'
-import {clearCart} from '/home/harsh/VS FULLSTACK/React/InstantShop/InstanstShop/src/Redux/cartSlice.js'
-import Navbar from '/home/harsh/VS FULLSTACK/React/InstantShop/InstanstShop/src/Component/Navbar.jsx'
-import '/home/harsh/VS FULLSTACK/React/InstantShop/InstanstShop/src/Css/Cart.css'
-import cartimg from '/home/harsh/VS FULLSTACK/React/InstantShop/InstanstShop/src/assets/empty-cart.png'
-import '/home/harsh/VS FULLSTACK/React/InstantShop/InstanstShop/src/App.css'
+import store from './../Redux/store.js'
+import {clearCart} from './../Redux/cartSlice.js'
+import Navbar from './../Component/Navbar.jsx'
+import './../Css/Cart.css'
+import cartimg from './../assets/empty-cart.png'
+import './../App.css'
 function Cart() {
 
   //subscribing using selector

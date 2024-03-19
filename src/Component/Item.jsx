@@ -1,10 +1,10 @@
 import React from 'react';
 import { FaStar } from "react-icons/fa";
-import '/home/harsh/VS FULLSTACK/React/InstantShop/InstanstShop/src/Css/item.css';
+import './../Css/item.css';
 
 import { useDispatch } from 'react-redux';
 import { addItem } from '../Redux/cartSlice';
-import Product from "./Product"
+
 import { useProductContext } from './ProductContext';
 import { useNavigate } from 'react-router-dom';
 
