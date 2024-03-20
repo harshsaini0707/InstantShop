@@ -63,8 +63,8 @@ function classNames(...classes) {
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
-                    {navigation.map((item) => (
+                  <div className="flex space-x-4" >
+                    {/* {navigation.map((item) => (
                       <a
                         key={item.name}
                         href={item.href}
@@ -76,7 +76,22 @@ function classNames(...classes) {
                       >
                         {item.name}
                       </a>
-                    ))}
+                    ))} */}
+                    <div className={classNames(
+                          'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          'rounded-md px-3 py-2 text-sm font-medium'
+                        )} onClick={()=>navigate("/shop")}>shop</div>
+                    <div className={classNames(
+                          'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          'rounded-md px-3 py-2 text-sm font-medium'
+                        )} onClick={()=>navigate("/about")}>about</div>
+                    <div className={classNames(
+                         'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          'rounded-md px-3 py-2 text-sm font-medium'
+                        )} onClick={()=>navigate("/contact")}>contact us</div>
+                  </div>
+                  <div>
+
                   </div>
                 </div>
               </div>
